@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .center{
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +15,11 @@
 
 header{
     padding: 20px 0;
-    background-color: rgb(202, 202, 202);
+    background-image: url(img/hard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 6px 6px 6px #888;
+
 }
 
 a{
@@ -30,29 +36,35 @@ a{
     padding-top: 20px;
 }
 
+a{
+    color: white;
+}
 
-.hardware, h1{
+
+.title{
     font-size: 50px;
     width: 70%;
     margin-right: 90px;
-    text-shadow: 1px 1px white;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
     font-family: "Anta", sans-serif;
     
 }
 
+
 nav{
     padding: 20px;
     text-align: center;
-    background-image: url(img/hard.jpg); 
-    
+    position: sticky;
+    top: 0;
+    padding: 100px;
 }
 
 
-p, h3{
-    text-align: justify;
-    padding: 10px;
-    color: white;
-    font-family: "Lato", sans-serif;;
-    text-shadow: 1px 1px 1px black;
+h3, .title2{
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 3px 3px 3px;
+    font-family: "Lato", sans-serif;
+    
 }
 
